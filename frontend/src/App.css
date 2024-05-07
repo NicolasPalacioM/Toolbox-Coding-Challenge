@@ -1,0 +1,15 @@
+.table-responsive {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.custom-button {
+  background-color: #ff6666 !important;
+  border-color: #ff6666 !important;
+}
+
+.custom-button:hover {
+  background-color: #ff8585 !important;
+  border-color: #ff8585 !important;
+}

@@ -1,0 +1,3 @@
+{
+  "ignore": ["tests/**/*.cjs", "tests/**/*.js"]
+}

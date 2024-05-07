@@ -1,0 +1,25 @@
+{
+  "name": "file-processing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.cjs",
+  "scripts": {
+    "start": "node app.cjs",
+    "test": "mocha --timeout 10000 ./tests/app.test.cjs",
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.4.1",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "sinon": "^17.0.1",
+    "standard": "^17.1.0"
+  }
+}
