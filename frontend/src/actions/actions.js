@@ -1,10 +1,14 @@
-// actions.js
 import { API_URL } from "../utils/config";
 
 export const FETCH_FILE_DATA_REQUEST = "FETCH_FILE_DATA_REQUEST";
 export const FETCH_FILE_DATA_SUCCESS = "FETCH_FILE_DATA_SUCCESS";
 export const FETCH_FILE_DATA_FAILURE = "FETCH_FILE_DATA_FAILURE";
 
+/**
+ * Action creator for fetching file data.
+ * @param {string} [fileName]
+ * @returns {Function} A thunk function that dispatches the fetch file data actions.
+ */
 export const fetchFileData = (fileName) => {
   return async (dispatch) => {
     dispatch({ type: FETCH_FILE_DATA_REQUEST });

@@ -1,4 +1,3 @@
-// reducers.js
 import {
   FETCH_FILE_DATA_REQUEST,
   FETCH_FILE_DATA_SUCCESS,
